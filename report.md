@@ -1,4 +1,4 @@
-#sourcecodester.com Simple Responsive Tourism Website V1.0 /tourism/classes/Login.php?f=login SQL injection
+# sourcecodester.com Simple Responsive Tourism Website V1.0 /tourism/classes/Login.php?f=login SQL injection
 
 # username OF AFFECTED PRODUCT(S)
 
