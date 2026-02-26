@@ -2,7 +2,7 @@
 
 # username OF AFFECTED PRODUCT(S)
 
-- Campus Lost and Found System
+- Simple Responsive Tourism Website
 ## Vendor Homepage
 
 -  sourcecodester.com
@@ -33,7 +33,7 @@
 
 ## Root Cause
 
-- A SQL injection vulnerability was found in the '/tourism/classes/Login.php?f=login ' file of the 'Campus Lost and Found System' project. The reason for this issue is that attackers inject malicious code from the parameter 'username‘ and use it directly in SQL queries without the need for appropriate cleaning or validation. This allows attackers to forge input values, thereby manipulating SQL queries and performing unauthorized operations.
+- A SQL injection vulnerability was found in the '/tourism/classes/Login.php?f=login ' file of the 'Simple Responsive Tourism Website' project. The reason for this issue is that attackers inject malicious code from the parameter 'username‘ and use it directly in SQL queries without the need for appropriate cleaning or validation. This allows attackers to forge input values, thereby manipulating SQL queries and performing unauthorized operations.
 
 ## Impact
 
@@ -41,7 +41,7 @@
 
 # DESCRIPTION
 
-- During the security review of "Campus Lost and Found System",I discovered a critical SQL injection vulnerability in the "/tourism/classes/Login.php?f=login " file. This vulnerability stems from insufficient user input validation of the 'username' parameter, allowing attackers to inject malicious SQL queries. Therefore, attackers can gain unauthorized access to databases, modify or delete data, and access sensitive information. Immediate remedial measures are needed to ensure system security and protect data integrity.
+- During the security review of "Simple Responsive Tourism Website",I discovered a critical SQL injection vulnerability in the "/tourism/classes/Login.php?f=login " file. This vulnerability stems from insufficient user input validation of the 'username' parameter, allowing attackers to inject malicious SQL queries. Therefore, attackers can gain unauthorized access to databases, modify or delete data, and access sensitive information. Immediate remedial measures are needed to ensure system security and protect data integrity.
 
 # No login or authorization is required to exploit this vulnerability
 
